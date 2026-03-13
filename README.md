@@ -1,5 +1,5 @@
 # BDsql
-estudo e formulas usadas para manipulação de dados sql. 
+Estudo e formulas usadas para manipulação de dados sql. 
 
 Este repositório foi desenvolvido para demonstrar competências técnicas em SQL, com foco na estruturação, manipulação e análise de dados para suporte à tomada de decisão.
 
