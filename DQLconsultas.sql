@@ -64,3 +64,10 @@ FROM SCOTT.EMP
 ORDER BY HIREDATE ASC; -- ORDENAR TABELA PELAS DATAS(QUANDO NÃO É DEFINIDO ISSO A TABELA EXIBE OS DADOS POR ORDEM DE CADASTRO)
 --ASC EM ORDEM CRESCENTE 
 -- DESC EM ORDEM DECRESCENTE
+
+SELECT EMPNO, ENAME, DEPTNO
+FROM SCOTT.EMP
+WHERE ENAME = UPPER('blake');
+-- devido a tabela ter nomes salvos em caixa alta ao consultalo em a palavra reservada 
+--UPPER não sera possivel encontrar o mesmo.
+--LOWER para minúsculas , UPPER para maiúsculas, INITCAP para primeira letra maiúscula e restante minúsculas.
